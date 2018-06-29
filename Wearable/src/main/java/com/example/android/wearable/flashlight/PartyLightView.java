@@ -35,7 +35,7 @@ public class PartyLightView extends View {
             Color.GREEN,
             Color.BLUE,
             Color.CYAN,
-            Color.MAGENTA
+            Color.BLACK
     };
 
     private int mFromColorIndex;
