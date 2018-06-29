@@ -34,7 +34,6 @@ dependencies {
     compile "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"
     compile "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
     
-    def appCenterSdkVersion = '1.6.1'
     compile "com.microsoft.appcenter:appcenter-push:${appCenterSdkVersion}"
 
 }
