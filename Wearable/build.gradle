@@ -29,6 +29,10 @@ dependencies {
     provided 'com.google.android.wearable:wearable:2.2.0'
 
     compile 'com.google.android.support:wearable:2.2.0'
+    
+    def appCenterSdkVersion = '1.6.1'
+    compile "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"
+    compile "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
 
 }
 
