@@ -29,6 +29,10 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
+
 /**
  * Let there be light.
  */
@@ -38,6 +42,8 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        AppCenter.start(getApplication(), "31835409-9fac-4b3e-a213-07c5c4d42281",
+                        Analytics.class, Crashes.class);
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.main);
