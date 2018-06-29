@@ -34,7 +34,7 @@ public class PartyLightView extends View {
             Color.RED,
             Color.GREEN,
             Color.BLUE,
-            Color.CYAN,
+            Color.WHITE,
             Color.BLACK
     };
 
