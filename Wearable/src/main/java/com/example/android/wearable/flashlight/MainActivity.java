@@ -33,6 +33,9 @@ import com.microsoft.appcenter.AppCenter;
 import com.microsoft.appcenter.analytics.Analytics;
 import com.microsoft.appcenter.crashes.Crashes;
 
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.push.Push;
+
 /**
  * Let there be light.
  */
@@ -43,7 +46,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         AppCenter.start(getApplication(), "31835409-9fac-4b3e-a213-07c5c4d42281",
-                        Analytics.class, Crashes.class);
+                        Analytics.class, Crashes.class, Push.class);
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.main);
